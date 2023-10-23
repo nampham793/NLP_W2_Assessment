@@ -37,7 +37,7 @@ Where `x_i` and `yi` are the coordinates of two points in n-dimensional space.
 **Cosine Similarity** measures the cosine of the angle between two non-zero vectors in a multi-dimensional space. It quantifies the similarity of direction between two vectors, irrespective of their magnitudes. The formula for cosine similarity is:
 
 ```math
-\cos(\theta) = \dfrac {A \cdot B} {\left\| A\right\| _{2}\left\| B\right\| _{2}} 
+\cos(\theta) = \dfrac {A \cdot B} {\left\| A\right\|\left\| B\right\|} 
 ```
 Where A and B are vectors, and `||A||` and `||B||` represent the magnitudes of those vectors.
 
