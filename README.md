@@ -36,11 +36,10 @@ Where `x_i` and `yi` are the coordinates of two points in n-dimensional space.
 
 **Cosine Similarity** measures the cosine of the angle between two non-zero vectors in a multi-dimensional space. It quantifies the similarity of direction between two vectors, irrespective of their magnitudes. The formula for cosine similarity is:
 
-
-Where `x_i` and `y_i` are the coordinates of two points in n-dimensional space.
 ```math
 \cos(\theta) = \dfrac {A \cdot B} {\left\| A\right\| _{2}\left\| B\right\| _{2}} 
 ```
+Where A and B are vectors, and `||A||` and `||B||` represent the magnitudes of those vectors.
 
 **When to Use Cosine Similarity Instead of Euclidean Distance**:
   - **_Text Document Comparison:_** Cosine similarity is widely used in natural language processing (NLP) for comparing and measuring the similarity between text documents. In NLP tasks, documents are often represented as high-dimensional vectors where each dimension represents a term frequency or term frequency-inverse document frequency (TF-IDF) value. Cosine similarity is effective in this context because it focuses on the direction of the vectors, making it suitable for capturing the semantic similarity between documents while ignoring their length or magnitude.
