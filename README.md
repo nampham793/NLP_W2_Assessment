@@ -14,8 +14,6 @@ NamPNHSE171025
 Euclidean distance and cosine similarity are two different mathematical concepts used to measure the similarity or dissimilarity between vectors in a multi-dimensional space. They are commonly used in various fields, including machine learning, data mining, and information retrieval. 
 
 ### 1. Euclidean distance:
-Euclidean distance and cosine similarity are both methods used to measure the similarity or dissimilarity between vectors in a multi-dimensional space. They are widely used in various fields, including machine learning, data mining, and information retrieval.
-
 **Euclidean Distance** measures the "as-the-crow-flies" distance between two points in a Euclidean space, which is essentially the straight-line distance between two points. It is calculated using the Pythagorean theorem and can be expressed as:<br>
 ```math
 ||x-y||_n = \sqrt {\sum_{i=1}^{n} (x_i - y_i)^2}
