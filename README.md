@@ -56,6 +56,8 @@ Where A and B are vectors, and `||A||` and `||B||` represent the magnitudes of t
 
 <a name="content_2"></a>
 ## II. Stemming and Lemmatization: 
+Stemming and lemmatization are two fundamental techniques in natural language processing (NLP) and information retrieval that are used to reduce words to their base or root forms. They are essential for various NLP tasks, including text analysis, information retrieval, and text mining. Both techniques aim to simplify the words in a text to improve text analysis and information retrieval processes. However, they have distinct approaches and applications.
+
 ### 1. Stemming
 
 **Stemming** is the process of reducing words to their base or root form by removing prefixes or suffixes. Stemming is a heuristic approach, and various algorithms like the Porter stemmer, Snowball stemmer, and Lancaster stemmer are available.
